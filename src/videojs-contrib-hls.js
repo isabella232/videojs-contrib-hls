@@ -706,7 +706,5 @@ videojs.registerComponent('Hls', Hls);
 videojs.options.hls = videojs.options.hls || {};
 
 module.exports = {
-  Hls,
-  HlsHandler,
-  HlsSourceHandler
+  videojs
 };
