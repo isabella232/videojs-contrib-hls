@@ -57,8 +57,7 @@
   "license": "Apache-2.0",
   "browserify-shim": {
     "qunit": "global:QUnit",
-    "sinon": "global:sinon",
-    "video.js": "global:videojs"
+    "sinon": "global:sinon"
   },
   "vjsstandard": {
     "ignore": [
@@ -86,7 +85,7 @@
   "dependencies": {
     "m3u8-parser": "^1.0.2",
     "aes-decrypter": "^1.0.3",
-    "video.js": "^5.10.1",
+    "video.js": "git://github.com/dropbox/video.js.git#v5.10.7",
     "videojs-contrib-media-sources": "^3.1.0",
     "videojs-swf": "^5.0.2",
     "global": "^4.3.0"
